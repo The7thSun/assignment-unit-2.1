@@ -16,7 +16,7 @@ let luckyNumber= 2;
 // Refer back to the videos if you need help with this one.
 console.log('My name is Savon Stephens and I think 2 is a winner')
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous='true';
+let adventurous= true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food='Korean';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
@@ -24,7 +24,7 @@ let pets= 1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets= 2;
 // 11 - Add two pets to your `pets` variable
-pets= 3;
+pets= 4;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets= 2;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
@@ -44,9 +44,15 @@ if (luckyNumber=2 && adventurous==='true'){
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-if(pets>allowedPets){
-    console.log('Oh no i have too many pets!!')
-}
+if(pets<allowedPets){
+    console.log('i can have more pets');
+    }else if(pets===allowedPets){
+        console.log('i have enough pets');
+    }
+    else{
+        console.log('i have too many pets');
+    }
+
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
